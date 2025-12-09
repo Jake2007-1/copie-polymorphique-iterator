@@ -38,7 +38,7 @@ public abstract class Personne {
 
     public void setAdresse(Adresse adresse) {
         if (adresse == null)
-            throw new IllegalArgumentException("L'adresse ne doit pas être null")
+            throw new IllegalArgumentException("L'adresse ne doit pas être null");
         this.adresse = adresse;
     }
 
